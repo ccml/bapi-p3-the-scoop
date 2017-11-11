@@ -1,0 +1,18 @@
+users:
+    cc@cc.be: {username: cc@cc.be, articleIds: [1, 4], commentIds: [1, 4, 5]}
+    dd@dd.be: {username: dd@dd.be, articleIds: [2], commentIds: [2, 6, 7]}
+articles:
+    '1': {id: 1, title: Google, url: 'https://www.google.be', username: cc@cc.be, commentIds: [1, 4, 7], upvotedBy: [cc@cc.be], downvotedBy: [], comments: [{id: 1, body: 'My coment', username: cc@cc.be, articleId: 1, upvotedBy: [cc@cc.be, dd@dd.be], downvotedBy: []}, {id: 4, body: 'Go on guys !!!', username: cc@cc.be, articleId: 1, upvotedBy: [dd@dd.be], downvotedBy: []}, {id: 7, body: 'I''m here ', username: dd@dd.be, articleId: 1, upvotedBy: [], downvotedBy: []}]}
+    '2': {id: 2, title: 'My site', url: 'http://mysite.be', username: dd@dd.be, commentIds: [2], upvotedBy: [dd@dd.be, cc@cc.be], downvotedBy: [], comments: [{id: 2, body: 'it is my new site', username: dd@dd.be, articleId: 2, upvotedBy: [dd@dd.be, cc@cc.be], downvotedBy: []}]}
+    '3': null
+    '4': {id: 4, title: Tatz, url: 'http://tatz.com', username: cc@cc.be, commentIds: [5, 6], upvotedBy: [dd@dd.be], downvotedBy: [cc@cc.be], comments: [{id: 5, body: '???', username: cc@cc.be, articleId: 4, upvotedBy: [], downvotedBy: [cc@cc.be]}, {id: 6, body: 'what''s that ?', username: dd@dd.be, articleId: 4, upvotedBy: [], downvotedBy: []}]}
+nextArticleId: 5
+comments:
+    '1': {id: 1, body: 'My coment', username: cc@cc.be, articleId: 1, upvotedBy: [cc@cc.be, dd@dd.be], downvotedBy: []}
+    '2': {id: 2, body: 'it is my new site', username: dd@dd.be, articleId: 2, upvotedBy: [dd@dd.be, cc@cc.be], downvotedBy: []}
+    '3': null
+    '4': {id: 4, body: 'Go on guys !!!', username: cc@cc.be, articleId: 1, upvotedBy: [dd@dd.be], downvotedBy: []}
+    '5': {id: 5, body: '???', username: cc@cc.be, articleId: 4, upvotedBy: [], downvotedBy: [cc@cc.be]}
+    '6': {id: 6, body: 'what''s that ?', username: dd@dd.be, articleId: 4, upvotedBy: [], downvotedBy: []}
+    '7': {id: 7, body: 'I''m here ', username: dd@dd.be, articleId: 1, upvotedBy: [], downvotedBy: []}
+nextCommentId: 8
