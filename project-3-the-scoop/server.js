@@ -327,7 +327,7 @@ function updateComment(url, request) {
     savedComment.body = requestComment.body || savedComment.body;
 
     // the response is OK with the comment in the body
-    response.body = {article: savedComment};
+    response.body = {comment: savedComment};
     response.status = 200;
   }
 
